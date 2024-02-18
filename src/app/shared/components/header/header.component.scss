@@ -1,0 +1,22 @@
+.shared-header{
+  // background-color: #787878;
+  padding: 10px;
+  margin-bottom: 20px;
+  .enlaces {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Esto centra los elementos horizontalmente */
+    color: #fff;
+  }
+  .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+  }
+
+}
+

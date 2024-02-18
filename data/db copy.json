@@ -1,0 +1,136 @@
+{
+  "ofertas": [
+    {
+      "id": 1,
+      "titulo": "Desarrollador de Software Junior",
+      "empresa": "Tech Solutions S.A.",
+      "descripcion": "Tech Solutions S.A. está buscando un desarrollador de software junior para unirse a nuestro equipo. El candidato ideal deberá tener conocimientos en desarrollo web, programación orientada a objetos y experiencia en lenguajes como Java, Python o JavaScript.",
+      "ubicacion": "Ciudad de México",
+      "tipo": "Tiempo completo",
+      "salario": "$20,000 - $25,000 MXN",
+      "requisitos": ["Estudiante o recién egresado de Ingeniería Informática", "Conocimientos básicos de bases de datos", "Capacidad para trabajar en equipo"],
+      "fecha_publicacion": "2024-02-17",
+      "fecha_cierre": "2024-03-17"
+    },
+    {
+      "id": 2,
+      "titulo": "Analista de Datos",
+      "empresa": "Data Insights Ltd.",
+      "descripcion": "Data Insights Ltd. busca un analista de datos para ayudar en la recopilación, limpieza y análisis de datos. El candidato ideal deberá tener sólidos conocimientos en SQL, análisis estadístico y experiencia en herramientas de visualización de datos como Tableau o Power BI.",
+      "ubicacion": "Buenos Aires, Argentina",
+      "tipo": "Medio tiempo",
+      "salario": "$15,000 - $18,000 ARS",
+      "requisitos": ["Estudiante avanzado de Ingeniería Informática", "Experiencia en análisis de datos", "Conocimientos de estadística"],
+      "fecha_publicacion": "2024-02-17",
+      "fecha_cierre": "2024-03-10"
+    },
+    {
+      "id": 3,
+      "titulo": "Practicante de Desarrollo Web",
+      "empresa": "WebTech Solutions",
+      "descripcion": "WebTech Solutions ofrece una oportunidad de prácticas para un estudiante de Ingeniería Informática interesado en el desarrollo web. El candidato seleccionado trabajará en proyectos reales bajo la supervisión de nuestro equipo de desarrollo.",
+      "ubicacion": "Santiago, Chile",
+      "tipo": "Prácticas",
+      "salario": "Remuneración a convenir",
+      "requisitos": ["Estudiante de Ingeniería Informática", "Conocimientos básicos de HTML, CSS, JavaScript", "Motivación para aprender"],
+      "fecha_publicacion": "2024-02-17",
+      "fecha_cierre": "2024-03-03"
+    },
+    {
+      "id": 4,
+      "titulo": "Ingeniero de Software Senior",
+      "empresa": "Tech Innovations Inc.",
+      "descripcion": "Tech Innovations Inc. busca un ingeniero de software senior con experiencia en el desarrollo de aplicaciones empresariales. El candidato ideal deberá tener fuertes habilidades en diseño de arquitectura de software, desarrollo backend y liderazgo de equipos.",
+      "ubicacion": "Madrid, España",
+      "tipo": "Tiempo completo",
+      "salario": "A convenir",
+      "requisitos": ["Graduado en Ingeniería Informática o carreras afines", "Experiencia mínima de 5 años en desarrollo de software", "Conocimientos avanzados de Java, Spring Boot, Hibernate"],
+      "fecha_publicacion": "2024-02-17",
+      "fecha_cierre": "2024-03-15"
+    },
+    {
+      "id": 5,
+      "titulo": "Especialista en Seguridad Informática",
+      "empresa": "SecureTech Solutions",
+      "descripcion": "SecureTech Solutions está en busca de un especialista en seguridad informática para auditar sistemas, implementar medidas de seguridad y asesorar en políticas de protección de datos. Se requiere experiencia previa en análisis de vulnerabilidades y conocimientos en criptografía.",
+      "ubicacion": "Ciudad de México",
+      "tipo": "Tiempo completo",
+      "salario": "$30,000 - $40,000 MXN",
+      "requisitos": ["Licenciatura en Ingeniería Informática, Ciberseguridad o áreas relacionadas", "Experiencia mínima de 3 años en seguridad informática", "Certificaciones en seguridad como CISSP, CEH"],
+      "fecha_publicacion": "2024-02-17",
+      "fecha_cierre": "2024-03-20"
+    },
+    {
+      "id": 6,
+      "titulo": "Desarrollador de Apps Móviles",
+      "empresa": "MobileTech Solutions",
+      "descripcion": "MobileTech Solutions está buscando un desarrollador de aplicaciones móviles para crear experiencias innovadoras en dispositivos móviles. Se requiere experiencia en desarrollo nativo o frameworks como React Native o Flutter.",
+      "ubicacion": "Bogotá, Colombia",
+      "tipo": "Tiempo completo",
+      "salario": "$3,000,000 - $4,000,000 COP",
+      "requisitos": ["Estudiante avanzado o graduado en Ingeniería Informática", "Experiencia en desarrollo de aplicaciones móviles", "Conocimientos de diseño UI/UX"],
+      "fecha_publicacion": "2024-02-17",
+      "fecha_cierre": "2024-03-25"
+    },
+    {
+      "id": 7,
+      "titulo": "Ingeniero DevOps",
+      "empresa": "CloudTech Innovations",
+      "descripcion": "CloudTech Innovations busca un ingeniero DevOps para automatizar procesos de desarrollo, implementar pipelines de integración continua y gestionar infraestructuras en la nube. Se requiere experiencia en herramientas como Docker, Kubernetes y Jenkins.",
+      "ubicacion": "São Paulo, Brasil",
+      "tipo": "Tiempo completo",
+      "salario": "A combinar",
+      "requisitos": ["Graduado en Ingeniería Informática, Sistemas o afines", "Experiencia en administración de sistemas Linux", "Conocimientos de scripting (Bash, Python)"],
+      "fecha_publicacion": "2024-02-17",
+      "fecha_cierre": "2024-03-18"
+    },
+    {
+      "id": 8,
+      "titulo": "Data Scientist",
+      "empresa": "DataWorks Ltd.",
+      "descripcion": "DataWorks Ltd. busca un data scientist para analizar grandes volúmenes de datos, desarrollar modelos predictivos y colaborar en proyectos de inteligencia artificial. Se requiere experiencia en herramientas como Python, R y frameworks de machine learning.",
+      "ubicacion": "Lima, Perú",
+      "tipo": "Tiempo completo",
+      "salario": "A convenir",
+      "requisitos": ["Graduado en Ingeniería Informática, Estadística o áreas afines", "Experiencia en análisis de datos y modelado predictivo", "Conocimientos de estadística y machine learning"],
+      "fecha_publicacion": "2024-02-17",
+      "fecha_cierre": "2024-03-22"
+    },
+    {
+      "id": 9,
+      "titulo": "Ingeniero de Redes",
+      "empresa": "NetSys Solutions",
+      "descripcion": "NetSys Solutions está en busca de un ingeniero de redes para diseñar, implementar y mantener infraestructuras de red. Se requiere experiencia en configuración de routers, switches y firewalls, así como conocimientos en protocolos de red.",
+      "ubicacion": "Buenos Aires, Argentina",
+      "tipo": "Tiempo completo",
+      "salario": "$25,000 - $30,000 ARS",
+      "requisitos": ["Graduado en Ingeniería Informática, Telecomunicaciones o áreas relacionadas", "Experiencia en administración de redes", "Conocimientos de protocolos TCP/IP, VLANs, VPNs"],
+      "fecha_publicacion": "2024-02-17",
+      "fecha_cierre": "2024-03-28"
+    },
+    {
+      "id": 10,
+      "titulo": "Desarrollador Full Stack",
+      "empresa": "CodeCrafters Ltda.",
+      "descripcion": "CodeCrafters Ltda. está en busca de un desarrollador full stack para trabajar en proyectos web y móviles. El candidato ideal deberá tener experiencia tanto en frontend como en backend, utilizando tecnologías como React.js, Node.js, Express y bases de datos relacionales y no relacionales.",
+      "ubicacion": "Santiago, Chile",
+      "tipo": "Tiempo completo",
+      "salario": "A convenir",
+      "requisitos": ["Graduado en Ingeniería Informática o afines", "Experiencia en desarrollo full stack", "Conocimientos de bases de datos SQL y NoSQL"],
+      "fecha_publicacion": "2024-02-17",
+      "fecha_cierre": "2024-03-30"
+    },
+    {
+      "id": 11,
+      "titulo": "Analista de Ciberseguridad",
+      "empresa": "CyberGuard Inc.",
+      "descripcion": "CyberGuard Inc. está en busca de un analista de ciberseguridad para monitorear y analizar amenazas, implementar políticas de seguridad y realizar pruebas de penetración. Se requiere experiencia en herramientas de seguridad como SIEM, IDS/IPS, y conocimientos en hacking ético.",
+      "ubicacion": "Ciudad de México",
+      "tipo": "Tiempo completo",
+      "salario": "$25,000 - $35,000 MXN",
+      "requisitos": ["Graduado en Ingeniería Informática, Ciberseguridad o áreas relacionadas", "Experiencia en ciberseguridad", "Certificaciones como CISSP, CEH, OSCP son un plus"],
+      "fecha_publicacion": "2024-02-17",
+      "fecha_cierre": "2024-03-12"
+    }
+  ]
+}

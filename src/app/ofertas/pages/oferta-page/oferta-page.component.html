@@ -1,0 +1,28 @@
+<h2>Detalles de la oferta</h2>
+
+<ng-template #divLoading>
+  <mat-grid-list cols="1">
+    <mat-grid-tile>
+      <mat-spinner></mat-spinner>
+    </mat-grid-tile>
+  </mat-grid-list>
+</ng-template>
+
+<div *ngIf="oferta; else divLoading" class="carta-oferta align-items-center justify-content-center">
+  <div class="carta-imagen">
+    <img mat-card-image class="card-hero-image" [src]="oferta | ofertImage" [alt]="oferta.empresa">
+  </div>
+  <div class="carta-contenido">
+    <h4 class="font-semibold">{{oferta.titulo}}</h4>
+    <p class="font-light">{{oferta.empresa}}</p>
+    <p>{{oferta.descripcion}}</p>
+    <p class="font-semibold">Salario</p>
+    <p>{{oferta.salario}}</p>
+    <p class="font-semibold">Ubicacion</p>
+    <p>{{oferta.ubicacion}}</p>
+    <p class="font-semibold">Requisitos</p>
+    <p>{{oferta.requisitos}}</p>
+    <p class="font-semibold">Fecha de Publicacion <span class="font-normal">{{oferta.fecha_publicacion}}</span></p>
+    <p class="font-semibold">Fecha de Cierre <span class="font-normal">{{oferta.fecha_cierre}}</span></p>
+  </div>
+</div>
