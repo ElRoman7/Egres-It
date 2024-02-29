@@ -9,6 +9,7 @@ import { ListPageComponent } from './pages/list-page/list-page.component';
 import { SharedModule } from '../shared/shared.module';
 import { MaterialModule } from '../material/material.module';
 import { OfertImagePipe } from './pipes/oferta-image.pipe';
+import { HeaderComponent } from './components/header/header.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { OfertImagePipe } from './pipes/oferta-image.pipe';
     OfertaPageComponent,
     LayoutPageComponent,
     ListPageComponent,
-    OfertImagePipe
+    OfertImagePipe,
+    HeaderComponent
   ],
   imports: [
     CommonModule,

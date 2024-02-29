@@ -1,13 +1,11 @@
 import { NgModule } from '@angular/core';
 
-import { HeaderComponent } from './components/header/header.component';
 import { MaterialModule } from '../material/material.module';
 import { RouterModule } from '@angular/router';
 import { Error404PageComponent } from './pages/error404-page/error404-page.component';
 
 @NgModule({
   declarations: [
-    HeaderComponent,
     Error404PageComponent
   ],
   imports: [
@@ -15,7 +13,6 @@ import { Error404PageComponent } from './pages/error404-page/error404-page.compo
     RouterModule
   ],
   exports: [
-    HeaderComponent
   ],
 
 })

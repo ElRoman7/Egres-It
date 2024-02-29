@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'shared-header',
+  selector: 'ofertas-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
