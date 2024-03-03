@@ -1,17 +1,23 @@
 <mat-toolbar color="primary" class="shared-header">
-    <mat-toolbar-row>
+  <mat-toolbar-row>
+    <!-- Logo en la izquierda -->
+    <div class="contenedor-logo">
       <a class="logo" [routerLink]="['']">
-        <img  src="../../../../favicon.ico" alt="Logo Empresa">
+        <img src="../../../../favicon.ico" alt="Logo Empresa">
         <h1 class="ml-3">Egres-It</h1>
       </a>
-      <span class="spacer"></span> <!-- Esto crea un espacio flexible entre los elementos -->
-  
-      <!-- Enlaces -->
-      <div class="enlaces ml-auto">
-        <a mat-button [routerLink]="['/home']">Home</a>
-        <a mat-button [routerLink]="['/ofertas/list']">Lista</a>
-        <a mat-button [routerLink]="['/contacto']">Contacto</a>
-      </div>
-    </mat-toolbar-row>
-  </mat-toolbar>
-  
+    </div>
+
+    <!-- Barra de búsqueda en el centro -->
+    <div class="buscador">
+      <app-search-item class="barra"></app-search-item>
+    </div>
+
+    <!-- Enlaces en la derecha -->
+    <div class="enlaces">
+      <a mat-button [routerLink]="['/ofertas/home']">Home</a>
+      <a mat-button [routerLink]="['/ofertas/list']">Lista</a>
+      <a mat-button [routerLink]="['/contacto']">Contacto</a>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>

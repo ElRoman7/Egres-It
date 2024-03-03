@@ -21,7 +21,7 @@ export class OfertasService {
   }
 
   //Buscar una oferta
-  getSuggestions(query: string): Observable<Oferta[]>{ // TODO: implementar barra de busqueda
+  getSuggestions(query: string): Observable<Oferta[]>{
     return this.http.get<Oferta[]>(`${this.baseUrl}/ofertas?q=${query}&_limit=6`);
   }
 

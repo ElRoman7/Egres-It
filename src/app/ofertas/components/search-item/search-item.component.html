@@ -1,0 +1,27 @@
+<form class="form">
+  <div class="barra">
+    <input type="text"
+      placeholder="Buscar una oferta"
+      (input)="searchOferta()"
+      [formControl]="searchInput"
+      [matAutocomplete]="auto"
+      class="input"
+    >
+  </div>
+
+  <mat-autocomplete
+    autoActiveFirstOption
+    #auto="matAutocomplete"
+    (optionSelected)="onSelectedOption($event)">
+    <mat-option *ngFor="let oferta of ofertas" [value]="oferta">
+      {{oferta.titulo}} <br>
+      <p class="font-light text-sm">{{oferta.empresa}}</p>
+    </mat-option>
+    <mat-option
+    *ngIf="ofertas.length === 0 && searchInput.value && searchInput.value.length > 0"
+    value="">
+    No se encontró nada con el termino {{searchInput.value}}
+  </mat-option>
+  </mat-autocomplete>
+</form>
+

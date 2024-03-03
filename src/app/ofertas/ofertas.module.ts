@@ -10,6 +10,9 @@ import { SharedModule } from '../shared/shared.module';
 import { MaterialModule } from '../material/material.module';
 import { OfertImagePipe } from './pipes/oferta-image.pipe';
 import { HeaderComponent } from './components/header/header.component';
+import { SearchItemComponent } from './components/search-item/search-item.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HomePageComponent } from './pages/home-page/home-page.component';
 
 
 @NgModule({
@@ -19,13 +22,18 @@ import { HeaderComponent } from './components/header/header.component';
     LayoutPageComponent,
     ListPageComponent,
     OfertImagePipe,
-    HeaderComponent
+    HeaderComponent,
+    SearchItemComponent,
+    HomePageComponent,
+
   ],
   imports: [
     CommonModule,
     OfertasRoutingModule,
     SharedModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule,
+    FormsModule
   ]
 })
 export class OfertasModule { }
